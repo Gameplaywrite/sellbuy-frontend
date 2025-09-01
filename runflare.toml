@@ -1,0 +1,5 @@
+[service]
+name =  sellbuy-frontend
+type = nodejs
+runtime = node20
+port = 8080
