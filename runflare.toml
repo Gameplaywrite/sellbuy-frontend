@@ -1,5 +1,8 @@
 [service]
-name =  sellbuy-frontend
-type = nodejs
-runtime = node20
+name = "sellbuy-frontend"
+type = "nodejs"
+runtime = "node20"
 port = 8080
+
+[start]
+command = "npm start"
